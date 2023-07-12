@@ -1,0 +1,27 @@
+body {
+  font-family: "Noto Sans Georgian", sans-serif;
+}
+
+.input-area {
+  margin-bottom: 20px;
+}
+
+.input-area input,
+.input-area select {
+  margin-right: 10px;
+}
+
+#svgContainer {
+  border: 1px solid #000;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+@font-face {
+  font-family: "Noto Sans Georgian";
+  src: url("fonts/NotoSansGeorgian-Regular.ttf") format("truetype"),
+    url("fonts/NotoSansGeorgian-Bold.ttf") format("truetype"),
+    url("fonts/NotoSansGeorgian-ExtraBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}

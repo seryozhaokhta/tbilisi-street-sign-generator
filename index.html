@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Street Sign Generator</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <div class="input-area">
+            <input id="houseNumber" type="text" placeholder="House Number">
+            <select id="buildingLetter" type="text" placeholder="Building Letter">
+                <option value="">None</option>
+                <option value="ა">ა</option>
+                <option value="ბ">ბ</option>
+                <option value="ვ">ვ</option>
+            </select>
+            <input id="streetName" type="text" placeholder="Street Name (Georgian)">
+            <input id="streetNameEng" type="text" placeholder="Street Name (English)">
+            <input id="district" type="text" placeholder="District/Metro">
+            <label>
+                Show QR code frame
+                <input type="checkbox" id="showQR">
+            </label>
+            <button id="generateSign">Generate Sign</button>
+        </div>
+        <div id="svgContainer"></div>
+        <button id="downloadSvg" style="display: none;">Download SVG</button>
+        <script src="script.js"></script>
+    </body>
+</html>
