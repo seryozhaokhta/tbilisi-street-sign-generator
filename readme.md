@@ -19,7 +19,7 @@ This project is a web-based tool for generating SVG images of street signs as se
 
 ## Technology Stack
 
-This project is built using HTML, CSS, and Vanilla JavaScript. 
+This project is built using HTML, CSS, and JavaScript. 
 
 ## Future Improvements
 
